@@ -27,7 +27,7 @@ public class LogicalOps {
 		} else {
 			System.out.println("You're still playing!");
 		}
-		
+		scanner.close();
         //Opposite with ! operator.
 //		if (!response.equals("q") && !response.equals("Q")) {
 //			System.out.println("You're still playing!");
