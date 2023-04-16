@@ -27,5 +27,11 @@ public class TwoDArrayLists {
 
 		System.out.println(groceryList);
 		System.out.println(groceryList.get(0).get(1));
+
+		
+		//forEach loop on ArrayList<>
+		for ( ArrayList<String> i : groceryList) {
+			System.out.println(i);
+		}
 	}
 }
